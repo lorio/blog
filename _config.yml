@@ -1,5 +1,4 @@
-name: Net_Art
-baseurl: /Net_Art
-permalink: title
-markdown: redcarpet
+name: "net_art"
+permalink: :title
+auto: true
 pygments: true
