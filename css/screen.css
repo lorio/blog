@@ -2,67 +2,292 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/* line 38, ../_sass/screen.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 43, ../_sass/screen.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 50, ../_sass/screen.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../_sass/screen.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 58, ../_sass/screen.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* line 72, ../_sass/screen.scss */
+body {
   margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
+}
+
+/* line 76, ../_sass/screen.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 80, ../_sass/screen.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 84, ../_sass/screen.scss */
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+/* Set 1 unit of vertical rhythm on the top and bottom margin. */
+/* line 88, ../_sass/screen.scss */
+blockquote {
+  margin: 1.5em 40px;
+}
+
+/* line 90, ../_sass/screen.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 2em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* line 136, ../_sass/screen.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 141, ../_sass/screen.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 145, ../_sass/screen.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 147, ../_sass/screen.scss */
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 151, ../_sass/screen.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 158, ../_sass/screen.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 162, ../_sass/screen.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 164, ../_sass/screen.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 165, ../_sass/screen.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 172, ../_sass/screen.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
+/* line 179, ../_sass/screen.scss */
+sup {
+  top: -0.5em;
 }
 
-/* line 24, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
+/* line 183, ../_sass/screen.scss */
+sub {
+  bottom: -0.25em;
 }
 
-/* line 26, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 187, ../_sass/screen.scss */
+img {
+  border: 0;
+}
+
+/* line 190, ../_sass/screen.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 193, ../_sass/screen.scss */
+figure {
+  margin: 0;
+}
+
+/* line 196, ../_sass/screen.scss */
+fieldset {
+  margin: 0 2px;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-color: #c0c0c0;
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 0.4625em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.9125em;
+  border-left-style: solid;
+  border-left-width: 0.0625em;
+  padding-left: 0.875em;
+  border-right-style: solid;
+  border-right-width: 0.0625em;
+  padding-right: 0.875em;
+}
+
+/* line 205, ../_sass/screen.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/* line 212, ../_sass/screen.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/* line 218, ../_sass/screen.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 222, ../_sass/screen.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 228, ../_sass/screen.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/* line 233, ../_sass/screen.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 237, ../_sass/screen.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/* line 241, ../_sass/screen.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/* line 246, ../_sass/screen.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 250, ../_sass/screen.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 254, ../_sass/screen.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* line 258, ../_sass/screen.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-/* line 28, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
 }

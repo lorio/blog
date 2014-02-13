@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: "Net_Art"
+permalink: :title
 pygments: true
+
