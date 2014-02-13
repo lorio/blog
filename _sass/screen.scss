@@ -280,5 +280,5 @@ table {
 		width: 18em;
 	}
 }
-p a { @include link-colors($normal, $hover, $active, $visited, $focus) }
+p a, li a { @include link-colors($normal, $hover, $active, $visited, $focus) }
 body {font-size: normal;}
