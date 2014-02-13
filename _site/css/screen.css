@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 38, ../_sass/screen.scss */
+/* line 50, ../_sass/screen.scss */
 article,
 aside,
 details,
@@ -18,26 +18,26 @@ summary {
   display: block;
 }
 
-/* line 43, ../_sass/screen.scss */
+/* line 55, ../_sass/screen.scss */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-/* line 50, ../_sass/screen.scss */
+/* line 62, ../_sass/screen.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 55, ../_sass/screen.scss */
+/* line 67, ../_sass/screen.scss */
 [hidden],
 template {
   display: none;
 }
 
-/* line 58, ../_sass/screen.scss */
+/* line 70, ../_sass/screen.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -47,35 +47,35 @@ html {
   /* 2 */
 }
 
-/* line 72, ../_sass/screen.scss */
+/* line 84, ../_sass/screen.scss */
 body {
   margin: 0;
 }
 
-/* line 76, ../_sass/screen.scss */
+/* line 88, ../_sass/screen.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 80, ../_sass/screen.scss */
+/* line 92, ../_sass/screen.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 84, ../_sass/screen.scss */
+/* line 96, ../_sass/screen.scss */
 p,
 pre {
   margin: 1.5em 0;
 }
 
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-/* line 88, ../_sass/screen.scss */
+/* line 100, ../_sass/screen.scss */
 blockquote {
   margin: 1.5em 40px;
 }
 
-/* line 90, ../_sass/screen.scss */
+/* line 102, ../_sass/screen.scss */
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
@@ -84,23 +84,23 @@ h1 {
   margin-bottom: 0.75em;
 }
 
-/* line 136, ../_sass/screen.scss */
+/* line 148, ../_sass/screen.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 141, ../_sass/screen.scss */
+/* line 153, ../_sass/screen.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 145, ../_sass/screen.scss */
+/* line 157, ../_sass/screen.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 147, ../_sass/screen.scss */
+/* line 159, ../_sass/screen.scss */
 hr {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -108,13 +108,13 @@ hr {
   height: 0;
 }
 
-/* line 151, ../_sass/screen.scss */
+/* line 163, ../_sass/screen.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 158, ../_sass/screen.scss */
+/* line 170, ../_sass/screen.scss */
 code,
 kbd,
 pre,
@@ -123,17 +123,17 @@ samp {
   font-size: 1em;
 }
 
-/* line 162, ../_sass/screen.scss */
+/* line 174, ../_sass/screen.scss */
 pre {
   white-space: pre-wrap;
 }
 
-/* line 164, ../_sass/screen.scss */
+/* line 176, ../_sass/screen.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 165, ../_sass/screen.scss */
+/* line 177, ../_sass/screen.scss */
 small {
   font-size: 80%;
 }
@@ -141,7 +141,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 172, ../_sass/screen.scss */
+/* line 184, ../_sass/screen.scss */
 sub,
 sup {
   font-size: 75%;
@@ -150,32 +150,32 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 179, ../_sass/screen.scss */
+/* line 191, ../_sass/screen.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 183, ../_sass/screen.scss */
+/* line 195, ../_sass/screen.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 187, ../_sass/screen.scss */
+/* line 199, ../_sass/screen.scss */
 img {
   border: 0;
 }
 
-/* line 190, ../_sass/screen.scss */
+/* line 202, ../_sass/screen.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 193, ../_sass/screen.scss */
+/* line 205, ../_sass/screen.scss */
 figure {
   margin: 0;
 }
 
-/* line 196, ../_sass/screen.scss */
+/* line 208, ../_sass/screen.scss */
 fieldset {
   margin: 0 2px;
   /* Apply borders and padding that keep the vertical rhythm. */
@@ -194,7 +194,7 @@ fieldset {
   padding-right: 0.875em;
 }
 
-/* line 205, ../_sass/screen.scss */
+/* line 217, ../_sass/screen.scss */
 legend {
   border: 0;
   /* 1 */
@@ -202,7 +202,7 @@ legend {
   /* 2 */
 }
 
-/* line 212, ../_sass/screen.scss */
+/* line 224, ../_sass/screen.scss */
 button,
 input,
 select,
@@ -215,19 +215,19 @@ textarea {
   /* 3 */
 }
 
-/* line 218, ../_sass/screen.scss */
+/* line 230, ../_sass/screen.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 222, ../_sass/screen.scss */
+/* line 234, ../_sass/screen.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 228, ../_sass/screen.scss */
+/* line 240, ../_sass/screen.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -238,13 +238,13 @@ input[type="submit"] {
   /* 3 */
 }
 
-/* line 233, ../_sass/screen.scss */
+/* line 245, ../_sass/screen.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 237, ../_sass/screen.scss */
+/* line 249, ../_sass/screen.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -255,7 +255,7 @@ input[type="radio"] {
   /* 2 */
 }
 
-/* line 241, ../_sass/screen.scss */
+/* line 253, ../_sass/screen.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -265,20 +265,20 @@ input[type="search"] {
   /* 2 */
 }
 
-/* line 246, ../_sass/screen.scss */
+/* line 258, ../_sass/screen.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 250, ../_sass/screen.scss */
+/* line 262, ../_sass/screen.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 254, ../_sass/screen.scss */
+/* line 266, ../_sass/screen.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -286,8 +286,47 @@ textarea {
   /* 2 */
 }
 
-/* line 258, ../_sass/screen.scss */
+/* line 270, ../_sass/screen.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@media (max-width: 46em) {
+  /* line 275, ../_sass/screen.scss */
+  .site {
+    width: 30em;
+  }
+}
+@media (max-width: 27em) {
+  /* line 275, ../_sass/screen.scss */
+  .site {
+    width: 18em;
+  }
+}
+
+/* line 283, ../_sass/screen.scss */
+p a {
+  color: blue;
+}
+/* line 18, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:visited {
+  color: rgba(0, 0, 255, 0.2);
+}
+/* line 21, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:focus {
+  color: rgba(0, 0, 255, 0.2);
+}
+/* line 24, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:hover {
+  color: rgba(0, 0, 255, 0.5);
+}
+/* line 27, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+p a:active {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+/* line 284, ../_sass/screen.scss */
+body {
+  font-size: normal;
 }
