@@ -8,14 +8,14 @@ categories: blogging
 
 I'm trying the Jekyll blogging platform, having started with the idea of checking out static site generators. I had built the "Live Mag!":http://covermagnyc.com reviews section with Octopress. I waited for version 3.0 -- it seemed just around the bend -- but I had to move on. 
 
-I'd been following "net art" in my twitter stream, without knowing it had a name. Had to learn about it from Susan Orlean, who first noticed it in 2012 and wrote about it in the recently published New Yorker "article":http://www.newyorker.com/reporting/2014/02/10/140210fa_fact_orlean "Man and Machine." 
+I'd been following "net art" in my twitter stream, without knowing it had a name. Had to learn about it from Susan Orlean, who first noticed it in 2012 and wrote about it in a recently published New Yorker "article.":http://www.newyorker.com/reporting/2014/02/10/140210fa_fact_orlean
 
 Meanwhile, there's an upcoming workshop I signed up for, from the Kitchen Table Coders, on creating a bot to tweet on shedule. Not that I had an inkling to do this, but I was curious about linode and they will show us how to set up a server. 
 
 Kai in the meet4speed meetup sparked my interest in setting up my own server. He offered what I took as a challenge to get my hands dirty: i.e., really getting into my apps/sites nuts and bolts, in terms of performance. 
 
-I need to get back to writing and also want to upgrade my git skills. This Jekyll blogging exercise will help with that. Writing in markdown (textile) is so  natural and fast. No tags!
+I'm getting back to writing while practicing with git. Using Jekyll, native to git, will help with that. Writing in markdown (textile) is so  natural and fast. No tags!
 
-I'm almost positive I'll blog about food and other unrelated topics, and might even change the name "Net_Art." But I'm following a family tradition. My mother named me Lori while reading a popular novel with a character of that name. She thought it was so unique. Then there were three Lori's in my first grade class. So the blog's name came as a momentary decision, thanks to Susan Orlean. I'll aim for the net artist's critical presence, or at least continue to observe it.
+I'm almost positive I'll blog about food and other unrelated topics, and might even change the name "Net_Art." But I'm following a family tradition. "Lori" is the name of a character in a popular novel my mother was reading. She thought it was so unique. Then there were three Loris in my first grade class. So the blog's name came as a momentary decision, thanks to Susan Orlean. I'll aim for the net artist's critical presence, or at least continue to observe it.
  
 
