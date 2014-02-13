@@ -1,7 +1,3 @@
 _site
 *.DS_Store
-<<<<<<< HEAD
-_sass
-=======
 .sass-cache
->>>>>>> master
