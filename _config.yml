@@ -1,4 +1,5 @@
 name: "Net_Art"
 permalink: :title
 pygments: true
-
+source: source: /Users/lori/code/jekyll/
+baseurl: /blog
