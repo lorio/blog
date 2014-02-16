@@ -39,7 +39,7 @@ template {
 
 /* line 70, ../_sass/screen.scss */
 html {
-  font-family: sans-serif;
+  font-family: "jaf-facitweb", sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -305,28 +305,38 @@ table {
   }
 }
 
-/* line 283, ../_sass/screen.scss */
-p a {
+/* line 284, ../_sass/screen.scss */
+p a, li a {
   color: blue;
 }
 /* line 18, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-p a:visited {
+p a:visited, li a:visited {
   color: rgba(0, 0, 255, 0.2);
 }
 /* line 21, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-p a:focus {
+p a:focus, li a:focus {
   color: rgba(0, 0, 255, 0.2);
 }
 /* line 24, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-p a:hover {
+p a:hover, li a:hover {
   color: rgba(0, 0, 255, 0.5);
 }
 /* line 27, ../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-p a:active {
+p a:active, li a:active {
   color: rgba(0, 0, 255, 0.5);
 }
 
-/* line 284, ../_sass/screen.scss */
+/* line 286, ../_sass/screen.scss */
+h1 {
+  font-family: "changeling-neo-stencil",sans-serif;
+}
+
+/* line 289, ../_sass/screen.scss */
+h2 {
+  padding-bottom: 10px;
+}
+
+/* line 290, ../_sass/screen.scss */
 body {
-  font-size: normal;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiNmZmZhZmEiPjwvcmVjdD4KPC9zdmc+");
 }
