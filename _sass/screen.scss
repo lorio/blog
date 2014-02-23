@@ -33,6 +33,20 @@ $active: rgba(0, 0, 255, 0.5);
 $visited: rgba(0, 0, 255, 0.2);
 $focus: rgba(0, 0, 255, 0.2);
 
+@function black($opacity){
+    @return rgba(0,0,0,$opacity)
+}
+@function white($opacity){
+    @return rgba(255,255,255,$opacity)
+}
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+@mixin center {
+  width: $container-width;
+  text-align: center;
+}
+
 $breakpoint-slim: max-width 46em;
 $breakpoint-slimmest: max-width 27em;
 
@@ -271,8 +285,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-.site {
+.site{
 	@include breakpoint($breakpoint-slim) {
 		width: 30em;
 	}
@@ -288,3 +301,9 @@ h1 {
   }
 h2 {padding-bottom: 10px;}
 body {background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiNmZmZhZmEiPjwvcmVjdD4KPC9zdmc+");}
+
+.post img {
+  @include box-emboss(1, 0.05);
+  width: 100%;
+}
+
