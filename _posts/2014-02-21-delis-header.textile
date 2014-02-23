@@ -8,7 +8,4 @@ categories: blogging
 
 Always on the lookout for a horizontal image; this one fit my series on deli design.  The series includes storefronts of the quantity of deli-convenience stores between 19th and 23rd street, culminating with a spanking new 7eleven. The three on my corner are old standbys; Merci Market is central. They are a microcosm of the Chelsea neighborhood and of the economy. The awning looked especially fetching with the snow patches' natural pattern. A detail...
 
-<!-- {% img center ../images/merciC.jpg "Merci Market" "deli awning with snow" %}
- -->
-
 !=../images/merciC.jpg(awning)!
