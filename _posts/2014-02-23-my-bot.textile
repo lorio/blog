@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "My Bot"
+description: "Setting up Linode and a tweeting bot"
+date:   2014-02-21 
+categories: web
+---
+
+I deployed a twitterbot! As I said in my "previous post":../winging-it/index.html it wasn’t my reason for joining the "KTC":http://kitchentablecoders.com/class/2014/02/15/building-twitterbots/ for an afternoon in a Bushwick loft/garrett. The weather was bad. I was lost. I was late. I admitted to the group that my motivation was learning to set up a Linode. RN walked us through that. It had to be fast, and faster due to my lateness. I signed on for the first month of Linode cloud server, which is eq to the cost of pro quality web hosting or cable TV. Im looking at the documentation to decide whether to pursue it further as a solution. The docs are laden with cryptic acronyms. Like one person said in the forums, if you have to ask, then it's probably not for you. Another said he only has a degree in history and had made a few websites but most users have CS backgrounds and a lot of experience.
+
+I did enjoy the KTC project and the exposure to new areas, and by now, a week later, I found some well written docs on the Linode site about how to set up rails. Don’t be afraid was my father’s advice about things. What could happen? Some would say stay away but now that I’ve met the challenge of starting a blog using Jekyll and adding a picture...
+
+What could come of the bot project? Would it result in any sustainable skill? Afterwards, other challenges were childsplay, like updating last year's rails projects after an environment crash and overhaul.
+
+Here's the surprising takeaway: my bot has already garnered several mentions, some followers, and daily replies to its tweets. It’s more social than my human, year-old @readingdance! Even though the tweets i.e. "Hello World!09876654” are not what you'd call quality, the sentiment seems to ring a bell with people! With this mantra I’ve connected with others experimenting, building something.
+ 
+I also learned an unmentionable hack that will ultimately be an aid in my continuing education. Ask me about it offline... the last bastion of privacy. Yeah, the internet encourages offline meeting and Real Life Events and has us reconnect with ourselves as social beings.
