@@ -1,22 +1,23 @@
 ---
 layout: post
 title:  "Amicus"
+description: "Using the Amicus combo gem for Middleman"
 date:   2014-03-17 19:26:34
 categories: dev
 ---
 
 Web dev and programming is about automating and efficiency. That’s what I’ve been seeking with regards to making a sustainable vocation of designing and building websites. I benefit from those with a lot of experience who share it as open source. I have a lot of gratitude and admiration for the public community on github, elsewhere on the net, and locally in meetups. 
 
-I hit upon Amicus a "clean project template for the Middleman static site generator.” by Nathan Henderson a.k.a. "nathos":https://github.com/nathos/amicus. It comes ready with sass, compass, susy, and haml. Id been using these gems in stand-alone or rails projects, or wanted to try them. On top of that, it offers some compensation for my human error, resulting in better performance. Web dev, open source, and programming are also very much about not re-inventing the wheel. 
+I hit upon Amicus a "clean project template for the Middleman static site generator.” by Nathan Henderson a.k.a. "nathos":http://github.com/nathos/amicus. It comes ready with sass, compass, susy, and haml. Id been using these gems in stand-alone or rails projects, or wanted to try them. On top of that, it offers some compensation for my human error, resulting in better performance. Web dev, open source, and programming are also very much about not re-inventing the wheel. 
 
 On top of what is included in Amicus, it has evolved to handle optimizing images and make favicons! I only have to uncomment a few lines in the config.rb  file after creating the project folder with the $middleman new command, and I have all this packaged as a head start on a project. Pretty magical. I am set up for this Ruby-based template… I thought. 
 
 As it turned out, some of its various elements weren't in sync, i.e. the new version of susy is ahead of Amicus. An issue’s in place, so Im hoping a susy evangelist who uses Amicus will help with that. An all-in-one like Amicus comes with that pitfall. The upside is the opportunity to put all these new-to-me tools into practice. Its intelligent commenting in the files helped me along. The sample index page also helped. Middleman has great documentation. I trusted nathos, having used his sass textmate-sublime bundle. 
 
-h3.haml
+h3. haml
 There are several html to haml converters online that helped me acclimate.  Haml is easy to pick up quick. I followed some advice to use Markdown in combination with it where haml is lacking, i.e. for @<br>@ line breaks. An Emmet expert might prefer to just write in html. But Emmet is just a text editor extension, where haml is an alternative to erb; and as in erb, you can insert Ruby functions and have dynamic content. The taste of programming made the process of building communitygardensbrand.com feel of-the-moment. Yet Amicus has been around for several years and looked tried-and-true. 
 
-h3.My haml for the fav maker:
+h3. My haml for the fav maker:
 {% highlight haml %}
 %link{ rel: "apple-touch-icon", sizes: "144x144", href: "apple-touch-icon-144x144-precomposed.png" }
     %link{ rel: "apple-touch-icon", sizes: "114x114", href: "apple-touch-icon-114x114-precomposed.png" }
@@ -27,8 +28,8 @@ h3.My haml for the fav maker:
     -# Place favicon.ico and apple-touch-icon(s) in the root directory
 {% endhighlight %}
 
-h3.Favicon
+h3. Favicon
 
-I had taken some pains to create a minified svg favicon, however, I found that the follman gem "middleman favicon maker":https://github.com/follmann/middleman-favicon-maker integrated into the version of Amicus I used would only accept a png. I had to first update my Imagemagick and install the mini-magick gem. Some devices will surprise you with a dark background if you didn't take that into account. So for best results I suggest not trying for alpha transparency. I wouldn't bother with a border, as different devices will treat the edges differently. Make a shape as simple as possible. This will be most effective at 16 x 16px. Too complicated a design will only bring false hopes. 
+I had taken some pains to create a minified svg favicon, however, I found that the follman gem "Middleman Favicon Maker":http://github.com/follmann/middleman-favicon-maker integrated into the version of Amicus I used would only accept a png. I had to first update my Imagemagick and install the mini-magick gem. Some devices will surprise you with a dark background if you didn't take that into account. So for best results I suggest not trying for alpha transparency. I wouldn't bother with a border, as different devices will treat the edges differently. Make a shape as simple as possible. This will be most effective at 16 x 16px. Too complicated a design will only bring false hopes. 
 
 I saw Aidan Feldman's talk on "Magickly":http://www.youtube.com/watch?v=AHVS3cLrTxA and thought it would be useful to generate responsive images and favicons. He presented it as a gem for automating on-the-fly processing of user generated images in various sizes and with different effects where needed.
