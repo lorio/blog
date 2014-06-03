@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Deli Design"
+description: "Photo essay"
+date:   2014-05-02 19:26:34
+categories: design chelsea
+---
+
+Going to move on. Been sitting on these images but happy to be back blogging and solidifying Jekyll, Github, Textile skills. 'Bout ready to give up on Textile, it seems atavistic. Someday the Fairy Godmother of CSS will help me rid this bug that's raising the image of the 17Food Market. Please write if that is you. Looks as amateur as the deli decor. I recently took a wonderful CSS Positioning "course":http://teamtreehouse.com/library/css-layout-techniques from "Guil":http://www.guilh.com Hernandez at Treehouse. But responsive image galleries are a particularly tricky fascination of mine.
+
+I promised in a previous "post":http://lorio.github.io/blog/deli-design.html, these photos of convenience stores on 7th Ave. just below 23rd street. The photo essay is a reflection on the neighborhood businesses' efforts to stand out in the crowd. Since I started photographing them just months ago, the corner deli has lowered its bamboo sun-blinds permanantly inside the windows which are postered with taped notices. 
+
+<div class="gallery">
+!=../images/foodmkt.jpg(food mkt)!
+!=../images/balloons.jpg(grand opening)!
+!=../images/arabic.jpg(falafel)!
+!=../images/corner.jpg(corner deli)!
+!=../images/merci.jpg(merci mkt)!
+!=../images/seven11.jpg(seven eleven)!
+</div>

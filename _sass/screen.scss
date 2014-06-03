@@ -46,10 +46,17 @@ $focus: rgba(0, 0, 255, 0.2);
   width: $container-width;
   text-align: center;
 }
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 $breakpoint-slim: max-width 46em;
 $breakpoint-slimmest: max-width 27em;
-
+$breakpoint-wide: min-width 47em;
 article,
 aside,
 details,
@@ -305,4 +312,14 @@ body {background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL
 .post img {
   @include box-emboss(1, 0.05);
   width: 100%;
+}
+.gallery {
+  @extend %clearfix;
+  img {
+    @include breakpoint($breakpoint-wide) {
+      width: 49.3%;
+      float: left;
+      margin: 2px;
+    }
+  }
 }
