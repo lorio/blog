@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Typography 1"
+description: "Visual Journal SVA"
+date:   2015-06-11 
+categories: typography
+---
+
+For this first journal post via the School of Visual Arts Typography class with Kevin Brainard some lettering caught my eye in a convenience store. I recently went to a "panel related to the Paul Rand":http://www.mcny.org/event/branding-why-good-design-good-business show at Museum of the City of New York with great design pros including Keith Yamashita, who worked with Steve Jobs among others. His humility telling amazing industry stories made a fan of me. Ivan Chermayeff was on the panel, Jennifer Kinon, Debbie Millman, and  Willy Wong moderated. 
+
+!=../images/kleenex.jpg(kleenex box redesign)!
+
+Millman talked about the Kleenex redesign. It involved 'liberating' the word from its box and updating the soft cuddly feeling. I like. It found a way to have soft cuddly without the sentimentality and to turn the box into something you'd like to display -- tissue boxes often are by default because we need tissues handy -- as opposed to hidden.
+
+!=../images/rand.jpg(Paul Rand design)!
+
+Rand impressed me with his apparent confidence and the look of effortlessness in his designs. He would show his final comp to the client, not versions or variations. If they didn't like it he'd tell them they could find another designer.
+
+!=../images/vacant.png(vacant word art)!
+
+I've been trying to make digital paintings like "those I used to make":http://paintings.artanddesign.us/ with a brush. I actually made a painting of the words preoccupied and vacant years ago. I have a ways to go to replace the tactility of my paintings with something, but I liked what Paul Sahre said, &ldquo;make what you want.&rdquo; It gave me a feeling of license and freedom that belies the holes in my design experience.  I tried to balance the complementary colors to cancel each other out. The orange on neutral color is similarly optical. 
+
+!=../images/uniq-card.jpg(tower silhouette)!
+
+I'm working also on a redesign of "my promotional website":http://uniqnewyork.com/. Learning typography gives me another tool to do a better job with that on websites as well as the print projects this class seems to be more focused on. Also, I'll learn more about design in general, by doing and looking. I hear that design is 95% typography&#8230; Now going back to this blog after a year's hiatus, I see their is room for improvement in the body text.
+
